@@ -10,9 +10,9 @@
 import math  # beépített (standard library) modul importálása
 import random
 import platform
-import math as m  # a modulnak álnevet (aliast) is adhatunk az "as" kulcsszóval
-from math import sqrt  # egyetlen névnek (itt: a sqrt függvénynek) az importálása
-from math import *  # a modul ÖSSZES nyilvános nevének importálása (körültekintően használandó!)
+# import math as m  # a modulnak álnevet (aliast) is adhatunk az "as" kulcsszóval
+# from math import sqrt  # egyetlen névnek (itt: a sqrt függvénynek) az importálása
+# from math import *  # a modul ÖSSZES nyilvános nevének importálása (körültekintően használandó!)
 
 import sajat_modul  # saját, a projektben elkészített modul importálása
 
@@ -27,8 +27,8 @@ def main() -> None:
     print(f'math.ceil(3.2) = {math.ceil(3.2)}')  # felfelé kerekítés
 
     # Ugyanaz, az álnévvel (m) és a korábban importált sqrt függvénnyel:
-    print(f'm.pi = {m.pi}')
-    print(f'sqrt(16) = {sqrt(16)}')  # nem kell kiírni, hogy "math.", mert csak ezt a nevet importáltuk
+    # print(f'm.pi = {m.pi}')
+    # print(f'sqrt(16) = {sqrt(16)}')  # nem kell kiírni, hogy "math.", mert csak ezt a nevet importáltuk
 
     # A random modul: véletlenszám-generáláshoz
     print('\nA random modul használata')

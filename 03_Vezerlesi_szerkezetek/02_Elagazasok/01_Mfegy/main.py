@@ -30,7 +30,7 @@ def main() -> None:
     else:
         print('Nem másodfokú!')
         if b != 0:
-            x: float = -b / c
+            x: float = -c / b
             print(f'x = {x}')
         else:
             if c != 0:
